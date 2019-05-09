@@ -12,6 +12,9 @@
 		1B2448AB228321A300EB37A6 /* numberOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B24489E22831C8400EB37A6 /* numberOneTests.m */; };
 		1B2448AC228321B000EB37A6 /* algorithmForOfferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B244898228318EB00EB37A6 /* algorithmForOfferTests.m */; };
 		1B2448AD228321CA00EB37A6 /* numberOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B244890228318A700EB37A6 /* numberOne.m */; };
+		1BE20F002284749E00154CF7 /* numberTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE20EFF2284749E00154CF7 /* numberTwo.m */; };
+		1BE20F0122847B2C00154CF7 /* numberTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE20EFF2284749E00154CF7 /* numberTwo.m */; };
+		1BE20F0322847B4600154CF7 /* numberTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE20F0222847B4600154CF7 /* numberTwoTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +38,9 @@
 		1B244898228318EB00EB37A6 /* algorithmForOfferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = algorithmForOfferTests.m; sourceTree = "<group>"; };
 		1B24489A228318EB00EB37A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B24489E22831C8400EB37A6 /* numberOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = numberOneTests.m; sourceTree = "<group>"; };
+		1BE20EFE2284749E00154CF7 /* numberTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = numberTwo.h; sourceTree = "<group>"; };
+		1BE20EFF2284749E00154CF7 /* numberTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = numberTwo.m; sourceTree = "<group>"; };
+		1BE20F0222847B4600154CF7 /* numberTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = numberTwoTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				1B2448872283167C00EB37A6 /* main.m */,
+				1BE20EFC2284748C00154CF7 /* numberFive */,
+				1BE20EFA2284748B00154CF7 /* numberFour */,
+				1BE20EFB2284748C00154CF7 /* numberTree */,
+				1BE20EFD2284748C00154CF7 /* numberTwo */,
 				1B24488E2283188E00EB37A6 /* numberOne */,
 			);
 			path = algorithmForOffer;
@@ -97,6 +107,7 @@
 			children = (
 				1B244898228318EB00EB37A6 /* algorithmForOfferTests.m */,
 				1B24489E22831C8400EB37A6 /* numberOneTests.m */,
+				1BE20F0222847B4600154CF7 /* numberTwoTests.m */,
 				1B24489A228318EB00EB37A6 /* Info.plist */,
 			);
 			path = algorithmForOfferTests;
@@ -107,6 +118,36 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BE20EFA2284748B00154CF7 /* numberFour */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = numberFour;
+			sourceTree = "<group>";
+		};
+		1BE20EFB2284748C00154CF7 /* numberTree */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = numberTree;
+			sourceTree = "<group>";
+		};
+		1BE20EFC2284748C00154CF7 /* numberFive */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = numberFive;
+			sourceTree = "<group>";
+		};
+		1BE20EFD2284748C00154CF7 /* numberTwo */ = {
+			isa = PBXGroup;
+			children = (
+				1BE20EFE2284749E00154CF7 /* numberTwo.h */,
+				1BE20EFF2284749E00154CF7 /* numberTwo.m */,
+			);
+			path = numberTwo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +239,7 @@
 			files = (
 				1B2448882283167C00EB37A6 /* main.m in Sources */,
 				1B244891228318A700EB37A6 /* numberOne.m in Sources */,
+				1BE20F002284749E00154CF7 /* numberTwo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +247,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BE20F0122847B2C00154CF7 /* numberTwo.m in Sources */,
 				1B2448AD228321CA00EB37A6 /* numberOne.m in Sources */,
+				1BE20F0322847B4600154CF7 /* numberTwoTests.m in Sources */,
 				1B2448AC228321B000EB37A6 /* algorithmForOfferTests.m in Sources */,
 				1B2448AB228321A300EB37A6 /* numberOneTests.m in Sources */,
 			);

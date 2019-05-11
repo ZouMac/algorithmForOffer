@@ -12,6 +12,13 @@
 		1B2448AB228321A300EB37A6 /* numberOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B24489E22831C8400EB37A6 /* numberOneTests.m */; };
 		1B2448AC228321B000EB37A6 /* algorithmForOfferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B244898228318EB00EB37A6 /* algorithmForOfferTests.m */; };
 		1B2448AD228321CA00EB37A6 /* numberOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B244890228318A700EB37A6 /* numberOne.m */; };
+		1B95C2562286E3950089C9A9 /* NumberThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C2552286E3950089C9A9 /* NumberThree.m */; };
+		1B95C2602286E78D0089C9A9 /* linkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C25F2286E78D0089C9A9 /* linkedList.m */; };
+		1B95C262228725290089C9A9 /* numberThreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C261228725290089C9A9 /* numberThreeTests.m */; };
+		1B95C263228725420089C9A9 /* linkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C25F2286E78D0089C9A9 /* linkedList.m */; };
+		1B95C264228725420089C9A9 /* NumberThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C2552286E3950089C9A9 /* NumberThree.m */; };
+		1B95C267228726630089C9A9 /* TZStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C266228726630089C9A9 /* TZStack.m */; };
+		1B95C26822872AD20089C9A9 /* TZStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C266228726630089C9A9 /* TZStack.m */; };
 		1BE20F002284749E00154CF7 /* numberTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE20EFF2284749E00154CF7 /* numberTwo.m */; };
 		1BE20F0122847B2C00154CF7 /* numberTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE20EFF2284749E00154CF7 /* numberTwo.m */; };
 		1BE20F0322847B4600154CF7 /* numberTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE20F0222847B4600154CF7 /* numberTwoTests.m */; };
@@ -38,6 +45,13 @@
 		1B244898228318EB00EB37A6 /* algorithmForOfferTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = algorithmForOfferTests.m; sourceTree = "<group>"; };
 		1B24489A228318EB00EB37A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B24489E22831C8400EB37A6 /* numberOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = numberOneTests.m; sourceTree = "<group>"; };
+		1B95C2542286E3950089C9A9 /* NumberThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberThree.h; sourceTree = "<group>"; };
+		1B95C2552286E3950089C9A9 /* NumberThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberThree.m; sourceTree = "<group>"; };
+		1B95C25E2286E78D0089C9A9 /* linkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linkedList.h; sourceTree = "<group>"; };
+		1B95C25F2286E78D0089C9A9 /* linkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = linkedList.m; sourceTree = "<group>"; };
+		1B95C261228725290089C9A9 /* numberThreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = numberThreeTests.m; sourceTree = "<group>"; };
+		1B95C265228726630089C9A9 /* TZStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZStack.h; sourceTree = "<group>"; };
+		1B95C266228726630089C9A9 /* TZStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZStack.m; sourceTree = "<group>"; };
 		1BE20EFE2284749E00154CF7 /* numberTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = numberTwo.h; sourceTree = "<group>"; };
 		1BE20EFF2284749E00154CF7 /* numberTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = numberTwo.m; sourceTree = "<group>"; };
 		1BE20F0222847B4600154CF7 /* numberTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = numberTwoTests.m; sourceTree = "<group>"; };
@@ -84,9 +98,10 @@
 			isa = PBXGroup;
 			children = (
 				1B2448872283167C00EB37A6 /* main.m */,
+				1B95C25A2286E6C90089C9A9 /* Tools */,
 				1BE20EFC2284748C00154CF7 /* numberFive */,
 				1BE20EFA2284748B00154CF7 /* numberFour */,
-				1BE20EFB2284748C00154CF7 /* numberTree */,
+				1BE20EFB2284748C00154CF7 /* numberThree */,
 				1BE20EFD2284748C00154CF7 /* numberTwo */,
 				1B24488E2283188E00EB37A6 /* numberOne */,
 			);
@@ -108,6 +123,7 @@
 				1B244898228318EB00EB37A6 /* algorithmForOfferTests.m */,
 				1B24489E22831C8400EB37A6 /* numberOneTests.m */,
 				1BE20F0222847B4600154CF7 /* numberTwoTests.m */,
+				1B95C261228725290089C9A9 /* numberThreeTests.m */,
 				1B24489A228318EB00EB37A6 /* Info.plist */,
 			);
 			path = algorithmForOfferTests;
@@ -120,6 +136,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1B95C25A2286E6C90089C9A9 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				1B95C25E2286E78D0089C9A9 /* linkedList.h */,
+				1B95C25F2286E78D0089C9A9 /* linkedList.m */,
+				1B95C265228726630089C9A9 /* TZStack.h */,
+				1B95C266228726630089C9A9 /* TZStack.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		1BE20EFA2284748B00154CF7 /* numberFour */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,11 +154,13 @@
 			path = numberFour;
 			sourceTree = "<group>";
 		};
-		1BE20EFB2284748C00154CF7 /* numberTree */ = {
+		1BE20EFB2284748C00154CF7 /* numberThree */ = {
 			isa = PBXGroup;
 			children = (
+				1B95C2542286E3950089C9A9 /* NumberThree.h */,
+				1B95C2552286E3950089C9A9 /* NumberThree.m */,
 			);
-			path = numberTree;
+			path = numberThree;
 			sourceTree = "<group>";
 		};
 		1BE20EFC2284748C00154CF7 /* numberFive */ = {
@@ -238,7 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B2448882283167C00EB37A6 /* main.m in Sources */,
+				1B95C2562286E3950089C9A9 /* NumberThree.m in Sources */,
 				1B244891228318A700EB37A6 /* numberOne.m in Sources */,
+				1B95C2602286E78D0089C9A9 /* linkedList.m in Sources */,
+				1B95C267228726630089C9A9 /* TZStack.m in Sources */,
 				1BE20F002284749E00154CF7 /* numberTwo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,11 +279,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B95C263228725420089C9A9 /* linkedList.m in Sources */,
+				1B95C26822872AD20089C9A9 /* TZStack.m in Sources */,
+				1B95C264228725420089C9A9 /* NumberThree.m in Sources */,
 				1BE20F0122847B2C00154CF7 /* numberTwo.m in Sources */,
 				1B2448AD228321CA00EB37A6 /* numberOne.m in Sources */,
 				1BE20F0322847B4600154CF7 /* numberTwoTests.m in Sources */,
 				1B2448AC228321B000EB37A6 /* algorithmForOfferTests.m in Sources */,
 				1B2448AB228321A300EB37A6 /* numberOneTests.m in Sources */,
+				1B95C262228725290089C9A9 /* numberThreeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

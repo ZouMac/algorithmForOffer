@@ -25,6 +25,10 @@
     return self;
 }
 
+- (id)top {
+    return [self.stack firstObject];
+}
+
 - (id)pop {
     if (!self.stack.count) {
         return nil;

@@ -13,12 +13,20 @@
 		1B2448AC228321B000EB37A6 /* algorithmForOfferTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B244898228318EB00EB37A6 /* algorithmForOfferTests.m */; };
 		1B2448AD228321CA00EB37A6 /* numberOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B244890228318A700EB37A6 /* numberOne.m */; };
 		1B95C2562286E3950089C9A9 /* NumberThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C2552286E3950089C9A9 /* NumberThree.m */; };
-		1B95C2602286E78D0089C9A9 /* linkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C25F2286E78D0089C9A9 /* linkedList.m */; };
+		1B95C2602286E78D0089C9A9 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C25F2286E78D0089C9A9 /* LinkedList.m */; };
 		1B95C262228725290089C9A9 /* numberThreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C261228725290089C9A9 /* numberThreeTests.m */; };
-		1B95C263228725420089C9A9 /* linkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C25F2286E78D0089C9A9 /* linkedList.m */; };
+		1B95C263228725420089C9A9 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C25F2286E78D0089C9A9 /* LinkedList.m */; };
 		1B95C264228725420089C9A9 /* NumberThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C2552286E3950089C9A9 /* NumberThree.m */; };
 		1B95C267228726630089C9A9 /* TZStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C266228726630089C9A9 /* TZStack.m */; };
 		1B95C26822872AD20089C9A9 /* TZStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C266228726630089C9A9 /* TZStack.m */; };
+		1B95C26B2287F0150089C9A9 /* NumberFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C26A2287F0150089C9A9 /* NumberFour.m */; };
+		1B95C27C228860C00089C9A9 /* numberFourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C27B228860C00089C9A9 /* numberFourTests.m */; };
+		1B95C27F228860F20089C9A9 /* NumberFour.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C26A2287F0150089C9A9 /* NumberFour.m */; };
+		1B95C2842288798A0089C9A9 /* TZBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C2832288798A0089C9A9 /* TZBinaryTree.m */; };
+		1B95C28522887D0F0089C9A9 /* TZBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C2832288798A0089C9A9 /* TZBinaryTree.m */; };
+		1B95C2882289E6A60089C9A9 /* NumberFive.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C2872289E6A60089C9A9 /* NumberFive.m */; };
+		1B95C28A2289EC790089C9A9 /* numberFiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C2892289EC790089C9A9 /* numberFiveTests.m */; };
+		1B95C28B2289EC820089C9A9 /* NumberFive.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B95C2872289E6A60089C9A9 /* NumberFive.m */; };
 		1BE20F002284749E00154CF7 /* numberTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE20EFF2284749E00154CF7 /* numberTwo.m */; };
 		1BE20F0122847B2C00154CF7 /* numberTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE20EFF2284749E00154CF7 /* numberTwo.m */; };
 		1BE20F0322847B4600154CF7 /* numberTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE20F0222847B4600154CF7 /* numberTwoTests.m */; };
@@ -47,11 +55,19 @@
 		1B24489E22831C8400EB37A6 /* numberOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = numberOneTests.m; sourceTree = "<group>"; };
 		1B95C2542286E3950089C9A9 /* NumberThree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberThree.h; sourceTree = "<group>"; };
 		1B95C2552286E3950089C9A9 /* NumberThree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberThree.m; sourceTree = "<group>"; };
-		1B95C25E2286E78D0089C9A9 /* linkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linkedList.h; sourceTree = "<group>"; };
-		1B95C25F2286E78D0089C9A9 /* linkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = linkedList.m; sourceTree = "<group>"; };
+		1B95C25E2286E78D0089C9A9 /* LinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
+		1B95C25F2286E78D0089C9A9 /* LinkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
 		1B95C261228725290089C9A9 /* numberThreeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = numberThreeTests.m; sourceTree = "<group>"; };
 		1B95C265228726630089C9A9 /* TZStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZStack.h; sourceTree = "<group>"; };
 		1B95C266228726630089C9A9 /* TZStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZStack.m; sourceTree = "<group>"; };
+		1B95C2692287F0150089C9A9 /* NumberFour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberFour.h; sourceTree = "<group>"; };
+		1B95C26A2287F0150089C9A9 /* NumberFour.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberFour.m; sourceTree = "<group>"; };
+		1B95C27B228860C00089C9A9 /* numberFourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = numberFourTests.m; sourceTree = "<group>"; };
+		1B95C2822288798A0089C9A9 /* TZBinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZBinaryTree.h; sourceTree = "<group>"; };
+		1B95C2832288798A0089C9A9 /* TZBinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZBinaryTree.m; sourceTree = "<group>"; };
+		1B95C2862289E6A60089C9A9 /* NumberFive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberFive.h; sourceTree = "<group>"; };
+		1B95C2872289E6A60089C9A9 /* NumberFive.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberFive.m; sourceTree = "<group>"; };
+		1B95C2892289EC790089C9A9 /* numberFiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = numberFiveTests.m; sourceTree = "<group>"; };
 		1BE20EFE2284749E00154CF7 /* numberTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = numberTwo.h; sourceTree = "<group>"; };
 		1BE20EFF2284749E00154CF7 /* numberTwo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = numberTwo.m; sourceTree = "<group>"; };
 		1BE20F0222847B4600154CF7 /* numberTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = numberTwoTests.m; sourceTree = "<group>"; };
@@ -124,6 +140,8 @@
 				1B24489E22831C8400EB37A6 /* numberOneTests.m */,
 				1BE20F0222847B4600154CF7 /* numberTwoTests.m */,
 				1B95C261228725290089C9A9 /* numberThreeTests.m */,
+				1B95C27B228860C00089C9A9 /* numberFourTests.m */,
+				1B95C2892289EC790089C9A9 /* numberFiveTests.m */,
 				1B24489A228318EB00EB37A6 /* Info.plist */,
 			);
 			path = algorithmForOfferTests;
@@ -139,10 +157,12 @@
 		1B95C25A2286E6C90089C9A9 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				1B95C25E2286E78D0089C9A9 /* linkedList.h */,
-				1B95C25F2286E78D0089C9A9 /* linkedList.m */,
+				1B95C25E2286E78D0089C9A9 /* LinkedList.h */,
+				1B95C25F2286E78D0089C9A9 /* LinkedList.m */,
 				1B95C265228726630089C9A9 /* TZStack.h */,
 				1B95C266228726630089C9A9 /* TZStack.m */,
+				1B95C2822288798A0089C9A9 /* TZBinaryTree.h */,
+				1B95C2832288798A0089C9A9 /* TZBinaryTree.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -150,6 +170,8 @@
 		1BE20EFA2284748B00154CF7 /* numberFour */ = {
 			isa = PBXGroup;
 			children = (
+				1B95C2692287F0150089C9A9 /* NumberFour.h */,
+				1B95C26A2287F0150089C9A9 /* NumberFour.m */,
 			);
 			path = numberFour;
 			sourceTree = "<group>";
@@ -166,6 +188,8 @@
 		1BE20EFC2284748C00154CF7 /* numberFive */ = {
 			isa = PBXGroup;
 			children = (
+				1B95C2862289E6A60089C9A9 /* NumberFive.h */,
+				1B95C2872289E6A60089C9A9 /* NumberFive.m */,
 			);
 			path = numberFive;
 			sourceTree = "<group>";
@@ -269,9 +293,12 @@
 				1B2448882283167C00EB37A6 /* main.m in Sources */,
 				1B95C2562286E3950089C9A9 /* NumberThree.m in Sources */,
 				1B244891228318A700EB37A6 /* numberOne.m in Sources */,
-				1B95C2602286E78D0089C9A9 /* linkedList.m in Sources */,
+				1B95C2602286E78D0089C9A9 /* LinkedList.m in Sources */,
+				1B95C2882289E6A60089C9A9 /* NumberFive.m in Sources */,
 				1B95C267228726630089C9A9 /* TZStack.m in Sources */,
+				1B95C26B2287F0150089C9A9 /* NumberFour.m in Sources */,
 				1BE20F002284749E00154CF7 /* numberTwo.m in Sources */,
+				1B95C2842288798A0089C9A9 /* TZBinaryTree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,14 +306,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B95C263228725420089C9A9 /* linkedList.m in Sources */,
+				1B95C28B2289EC820089C9A9 /* NumberFive.m in Sources */,
+				1B95C28522887D0F0089C9A9 /* TZBinaryTree.m in Sources */,
+				1B95C27F228860F20089C9A9 /* NumberFour.m in Sources */,
+				1B95C263228725420089C9A9 /* LinkedList.m in Sources */,
 				1B95C26822872AD20089C9A9 /* TZStack.m in Sources */,
 				1B95C264228725420089C9A9 /* NumberThree.m in Sources */,
+				1B95C28A2289EC790089C9A9 /* numberFiveTests.m in Sources */,
 				1BE20F0122847B2C00154CF7 /* numberTwo.m in Sources */,
 				1B2448AD228321CA00EB37A6 /* numberOne.m in Sources */,
 				1BE20F0322847B4600154CF7 /* numberTwoTests.m in Sources */,
 				1B2448AC228321B000EB37A6 /* algorithmForOfferTests.m in Sources */,
 				1B2448AB228321A300EB37A6 /* numberOneTests.m in Sources */,
+				1B95C27C228860C00089C9A9 /* numberFourTests.m in Sources */,
 				1B95C262228725290089C9A9 /* numberThreeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -19,7 +19,7 @@ typedef struct listNode {
     struct listNode *next; // next指针
 } ListNode;
 
-@interface linkedList : NSObject
+@interface LinkedList : NSObject
 
 
 /**

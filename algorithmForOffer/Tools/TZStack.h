@@ -18,6 +18,15 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) BOOL empty;
 
 
+
+/**
+ 栈顶
+
+ @return 栈顶元素
+ */
+- (id)top;
+
+
 /**
  出栈
 

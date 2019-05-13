@@ -6,15 +6,15 @@
 //  Copyright © 2019 Zou Tan. All rights reserved.
 //
 
-#import "linkedList.h"
+#import "LinkedList.h"
 
-@interface linkedList()
+@interface LinkedList()
 
- @property (nonatomic, assign) ListNode *tmpListNode;
+@property (nonatomic, assign) ListNode *tmpListNode;
 
 @end
 
-@implementation linkedList
+@implementation LinkedList
 
 + (instancetype)createLinkedListWithArray:(NSArray <NSNumber *> *)array {
     return [[self alloc] initWithLinkedListWithArray:array];
